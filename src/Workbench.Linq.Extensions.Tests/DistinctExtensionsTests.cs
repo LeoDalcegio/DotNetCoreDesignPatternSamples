@@ -13,7 +13,7 @@ namespace Workbench.Linq.Extensions.Tests
             public string CPF { get; set; }
         }
 
-        [Fact(DisplayName = "Data uma coleção com 3 objetos sendo 2 iguais então o DISTINCT com uma comparação simples deve retornar uma lista com 2 objetos.")]
+        [Fact(DisplayName = "Data uma coleï¿½ï¿½o com 3 objetos sendo 2 iguais entï¿½o o DISTINCT com uma comparaï¿½ï¿½o simples deve retornar uma lista com 2 objetos.")]
         public void ListagemComItensRepetidosComparecaoSimples()
         {
             IEnumerable<PessoaFisica> pessoas = new List<PessoaFisica>()
@@ -31,7 +31,7 @@ namespace Workbench.Linq.Extensions.Tests
             Assert.DoesNotContain(pessoasDiferentes, p => p.NomeMae == "Paula");
         }
 
-        [Fact(DisplayName = "Data uma coleção com 3 objetos sendo 2 iguais então o DISTINCT com uma comparação composta deve retornar uma lista com 2 objetos.")]
+        [Fact(DisplayName = "Dada uma coleÃ§Ã£o com 3 objetos sendo 2 iguais entÃ£o o DISTINCT com uma comparaï¿½ï¿½o composta deve retornar uma lista com 2 objetos.")]
         public void ListagemComItensRepetidosComparecaoComposta()
         {
             IEnumerable<PessoaFisica> pessoas = new List<PessoaFisica>()

@@ -2,6 +2,12 @@
 
 Aplicação de exemplo de aplicação de Design Patterns na prática em um projeto WebAPI .NET Core 3.1 utilizada na palestra "Aplicando design patterns na prática com C#"
 
+# Desafio
+
+Implementar o serviço de consulta de pontos na carteira do Detran de algum estado. A consulta é apenas fictícia, no intuito de aprender sobre design patterns.
+
+Implementei a do Dentran de SC.
+
 ## Padrões na Prática
 
 ### Strategy
